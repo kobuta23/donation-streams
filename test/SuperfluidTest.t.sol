@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import {Test} from "forge-std/Test.sol";
-import {SuperToken} from "superfluid-finance/contracts/interfaces/superfluid/ISuperToken.sol";
+import {SuperToken} from "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperToken.sol";
 
 contract SuperfluidTest is Test {
     function setUp() public {

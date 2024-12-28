@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 pragma solidity ^0.8.19;
 
-import { RewardController } from "./RewardController.sol";
-
 import { Ownable } from "@openzeppelin-v5/contracts/access/Ownable.sol";
 import { CustomSuperTokenBase } from
     "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/CustomSuperTokenBase.sol";
