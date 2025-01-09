@@ -5,8 +5,13 @@ libs = ["lib"]
 remappings = [
     "superfluid-finance/=lib/protocol-monorepo/packages/",
     "@superfluid-finance/=lib/protocol-monorepo/packages/",
-    "@openzeppelin-v5/=lib/openzeppelin-contracts/"
+    "@openzeppelin/=lib/openzeppelin-contracts/"
 ]
+ffi = true
+fs_permissions = [{ access = "read", path = "./"}]
+
+[rpc_endpoints]
+base = "${BASE_RPC_URL}"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
 
